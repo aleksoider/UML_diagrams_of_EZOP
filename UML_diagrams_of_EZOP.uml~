@@ -31,19 +31,19 @@
     <searchpath href="PROJECT_DIR" />
     <members>
       <member type="profile"
-              name="UML_diagrams_of_EZOP_profile.profile" />
+              name="ezop_profile.profile" />
       <member type="xmi"
-              name="UML_diagrams_of_EZOP.xmi" />
+              name="ezop.xmi" />
       <member type="pgml"
-              name="UML_diagrams_of_EZOP_Диаграммаклассов.pgml"
+              name="ezop_Диаграммаклассов.pgml"
               diagramclass="org.argouml.uml.diagram.static_structure.ui.UMLClassDiagram"
               diagramname="Диаграмма классов" />
       <member type="pgml"
-              name="UML_diagrams_of_EZOP_Диаграмавариантовиспользования.pgml"
+              name="ezop_Диаграмавариантовиспользования.pgml"
               diagramclass="org.argouml.uml.diagram.use_case.ui.UMLUseCaseDiagram"
               diagramname="Диаграма вариантов использования" />
       <member type="todo"
-              name="UML_diagrams_of_EZOP.todo" />
+              name="ezop.todo" />
     </members>
     <historyfile name="" />
   </argo>
@@ -58,7 +58,7 @@
 			CodeGeneration
 		</plugin>
 </profile>
-<XMI xmi.version = '1.2' xmlns:UML = 'org.omg.xmi.namespace.UML' timestamp = 'Sat Nov 21 20:02:15 GMT+03:00 2015'>
+<XMI xmi.version = '1.2' xmlns:UML = 'org.omg.xmi.namespace.UML' timestamp = 'Sat Nov 21 19:49:06 GMT+03:00 2015'>
   <XMI.header>    <XMI.documentation>
       <XMI.exporter>ArgoUML (using Netbeans XMI Writer version 1.0)</XMI.exporter>
       <XMI.exporterVersion>0.34(6) revised on $Date: 2010-01-11 22:20:14 +0100 (Mon, 11 Jan 2010) $ </XMI.exporterVersion>
@@ -201,7 +201,7 @@
               </UML:BehavioralFeature.parameter>
             </UML:Operation>
             <UML:Operation xmi.id = '-64--88-0-100-2c2109f0:150c9219fbf:-8000:0000000000000986'
-              name = 'сохранитьОнтологию' visibility = 'public' isSpecification = 'false'
+              name = 'создатьОнтологию' visibility = 'public' isSpecification = 'false'
               ownerScope = 'instance' isQuery = 'false' concurrency = 'sequential' isRoot = 'false'
               isLeaf = 'false' isAbstract = 'false'>
               <UML:BehavioralFeature.parameter>
@@ -248,24 +248,6 @@
                 <UML:Class xmi.idref = '-64--88-0-100-2c2109f0:150c9219fbf:-8000:0000000000000996'/>
               </UML:StructuralFeature.type>
             </UML:Attribute>
-            <UML:Operation xmi.id = '-64--88-0-100--16371370:1512afc0eb3:-8000:0000000000000AE3'
-              name = 'сохранитьЧерновик' visibility = 'public' isSpecification = 'false'
-              ownerScope = 'instance' isQuery = 'false' concurrency = 'sequential' isRoot = 'false'
-              isLeaf = 'false' isAbstract = 'false'>
-              <UML:BehavioralFeature.parameter>
-                <UML:Parameter xmi.id = '-64--88-0-100--16371370:1512afc0eb3:-8000:0000000000000AE4'
-                  name = 'return' isSpecification = 'false' kind = 'return'/>
-              </UML:BehavioralFeature.parameter>
-            </UML:Operation>
-            <UML:Operation xmi.id = '-64--88-0-100--16371370:1512afc0eb3:-8000:0000000000000AE5'
-              name = 'создатьШаблон' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
-              isQuery = 'false' concurrency = 'sequential' isRoot = 'false' isLeaf = 'false'
-              isAbstract = 'false'>
-              <UML:BehavioralFeature.parameter>
-                <UML:Parameter xmi.id = '-64--88-0-100--16371370:1512afc0eb3:-8000:0000000000000AE6'
-                  name = 'return' isSpecification = 'false' kind = 'return'/>
-              </UML:BehavioralFeature.parameter>
-            </UML:Operation>
           </UML:Classifier.feature>
         </UML:Class>
         <UML:Class xmi.id = '-64--88-0-100-2c2109f0:150c9219fbf:-8000:000000000000097B'
@@ -840,7 +822,7 @@
       justification="Center"
     >Пользователь</text>
     <group name="Fig0.2"
-         description="org.argouml.uml.diagram.ui.FigStereotypesGroup[1089, 129, 397, 0]"
+         description="org.argouml.uml.diagram.ui.FigStereotypesGroup[1089, 129, 342, 0]"
          href="-64--88-0-100-2c2109f0:150c9219fbf:-8000:0000000000000962"
          fill="0"
          fillcolor="white"
@@ -854,7 +836,7 @@
       <rectangle name="Fig0.2.0"
         x="1089"
         y="129"
-        width="397"
+        width="342"
         height="0"
         fill="0"
         fillcolor="white"
@@ -992,7 +974,7 @@
     </group>
   </group>
   <group name="Fig1"
-       description="org.argouml.uml.diagram.static_structure.ui.FigClass[728, 88, 270, 211]pathVisible=false;stereotypeView=0;operationsVisible=true;attributesVisible=true;"
+       description="org.argouml.uml.diagram.static_structure.ui.FigClass[728, 80, 270, 194]pathVisible=false;stereotypeView=0;operationsVisible=true;attributesVisible=true;"
        href="-64--88-0-100-2c2109f0:150c9219fbf:-8000:0000000000000977"
        fill="1"
        fillcolor="white"
@@ -1004,9 +986,9 @@
     
     <rectangle name="Fig1.0"
       x="728"
-      y="88"
+      y="80"
       width="270"
-      height="211"
+      height="194"
       fill="1"
       fillcolor="white"
       stroke="1"
@@ -1014,7 +996,7 @@
     />
     <text name="Fig1.1"
       x="729"
-      y="89"
+      y="81"
       width="268"
       height="23"
       fill="0"
@@ -1029,7 +1011,7 @@
       justification="Center"
     >Авторизированный пользователь</text>
     <group name="Fig1.2"
-         description="org.argouml.uml.diagram.ui.FigStereotypesGroup[729, 89, 268, 0]"
+         description="org.argouml.uml.diagram.ui.FigStereotypesGroup[729, 81, 268, 0]"
          href="-64--88-0-100-2c2109f0:150c9219fbf:-8000:0000000000000977"
          fill="0"
          fillcolor="white"
@@ -1042,7 +1024,7 @@
       
       <rectangle name="Fig1.2.0"
         x="729"
-        y="89"
+        y="81"
         width="268"
         height="0"
         fill="0"
@@ -1053,7 +1035,7 @@
     </group>
     <rectangle name="Fig1.3"
       x="728"
-      y="112"
+      y="104"
       width="270"
       height="1"
       fill="1"
@@ -1062,7 +1044,7 @@
       strokecolor="black"
     />
     <group name="Fig1.4"
-         description="org.argouml.uml.diagram.ui.FigAttributesCompartment[729, 113, 268, 76]"
+         description="org.argouml.uml.diagram.ui.FigAttributesCompartment[729, 105, 268, 83]"
          href="-64--88-0-100-2c2109f0:150c9219fbf:-8000:0000000000000977"
          fill="0"
          fillcolor="white"
@@ -1074,9 +1056,9 @@
       
       <rectangle name="Fig1.4.0"
         x="729"
-        y="113"
+        y="105"
         width="268"
-        height="76"
+        height="83"
         fill="0"
         fillcolor="white"
         stroke="0"
@@ -1084,7 +1066,7 @@
       />
       <text name="Fig1.4.1"
         x="729"
-        y="113"
+        y="105"
         width="268"
         height="17"
         fill="0"
@@ -1100,7 +1082,7 @@
       >login : String</text>
       <text name="Fig1.4.2"
         x="729"
-        y="130"
+        y="122"
         width="268"
         height="17"
         fill="0"
@@ -1116,7 +1098,7 @@
       >password : String</text>
       <text name="Fig1.4.3"
         x="729"
-        y="147"
+        y="139"
         width="268"
         height="17"
         fill="0"
@@ -1132,7 +1114,7 @@
       >созданныеРазделы : Раздел</text>
       <text name="Fig1.4.4"
         x="729"
-        y="164"
+        y="156"
         width="268"
         height="23"
         fill="0"
@@ -1158,7 +1140,7 @@
       strokecolor="black"
     />
     <group name="Fig1.6"
-         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[729, 189, 268, 110]"
+         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[729, 189, 268, 83]"
          href="-64--88-0-100-2c2109f0:150c9219fbf:-8000:0000000000000977"
          fill="0"
          fillcolor="white"
@@ -1172,7 +1154,7 @@
         x="729"
         y="189"
         width="268"
-        height="110"
+        height="83"
         fill="0"
         fillcolor="white"
         stroke="0"
@@ -1225,42 +1207,10 @@
         bold="false"
         textsize="12"
         justification="Left"
-      >сохранитьОнтологию()</text>
+      >создатьОнтологию()</text>
       <text name="Fig1.6.4"
         x="729"
         y="240"
-        width="268"
-        height="17"
-        fill="0"
-        fillcolor="white"
-        stroke="0"
-        strokecolor="black"
-        textcolor="black"
-        font="Dialog"
-        italic="false"
-        bold="false"
-        textsize="12"
-        justification="Left"
-      >создатьЧерновик()</text>
-      <text name="Fig1.6.5"
-        x="729"
-        y="257"
-        width="268"
-        height="17"
-        fill="0"
-        fillcolor="white"
-        stroke="0"
-        strokecolor="black"
-        textcolor="black"
-        font="Dialog"
-        italic="false"
-        bold="false"
-        textsize="12"
-        justification="Left"
-      >сохранитьЧерновик()</text>
-      <text name="Fig1.6.6"
-        x="729"
-        y="274"
         width="268"
         height="23"
         fill="0"
@@ -1273,7 +1223,7 @@
         bold="false"
         textsize="12"
         justification="Left"
-      >создатьШаблон()</text>
+      >создатьЧерновик()</text>
     </group>
   </group>
   <group name="Fig2"
@@ -2356,7 +2306,7 @@
     </path>
   </group>
   <group name="Fig11"
-       description="org.argouml.uml.diagram.static_structure.ui.FigClass[1144, 376, 131, 80]pathVisible=false;stereotypeView=0;operationsVisible=true;attributesVisible=true;"
+       description="org.argouml.uml.diagram.static_structure.ui.FigClass[1144, 376, 128, 80]pathVisible=false;stereotypeView=0;operationsVisible=true;attributesVisible=true;"
        href="-64--88-0-100--4f356a81:1512aa91446:-8000:0000000000000ADB"
        fill="1"
        fillcolor="white"
@@ -2369,7 +2319,7 @@
     <rectangle name="Fig11.0"
       x="1144"
       y="376"
-      width="131"
+      width="128"
       height="80"
       fill="1"
       fillcolor="white"
@@ -2379,7 +2329,7 @@
     <text name="Fig11.1"
       x="1145"
       y="377"
-      width="129"
+      width="126"
       height="23"
       fill="0"
       fillcolor="white"
@@ -2418,7 +2368,7 @@
     <rectangle name="Fig11.3"
       x="1144"
       y="400"
-      width="131"
+      width="128"
       height="1"
       fill="1"
       fillcolor="black"
@@ -2426,7 +2376,7 @@
       strokecolor="black"
     />
     <group name="Fig11.4"
-         description="org.argouml.uml.diagram.ui.FigAttributesCompartment[1145, 401, 129, 24]"
+         description="org.argouml.uml.diagram.ui.FigAttributesCompartment[1145, 401, 126, 24]"
          href="-64--88-0-100--4f356a81:1512aa91446:-8000:0000000000000ADB"
          fill="0"
          fillcolor="white"
@@ -2439,7 +2389,7 @@
       <rectangle name="Fig11.4.0"
         x="1145"
         y="401"
-        width="129"
+        width="126"
         height="24"
         fill="0"
         fillcolor="white"
@@ -2450,7 +2400,7 @@
     <rectangle name="Fig11.5"
       x="1144"
       y="425"
-      width="131"
+      width="128"
       height="1"
       fill="1"
       fillcolor="black"
@@ -2458,7 +2408,7 @@
       strokecolor="black"
     />
     <group name="Fig11.6"
-         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[1145, 426, 129, 28]"
+         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[1145, 426, 126, 28]"
          href="-64--88-0-100--4f356a81:1512aa91446:-8000:0000000000000ADB"
          fill="0"
          fillcolor="white"
@@ -2471,7 +2421,7 @@
       <rectangle name="Fig11.6.0"
         x="1145"
         y="426"
-        width="129"
+        width="126"
         height="28"
         fill="0"
         fillcolor="white"
@@ -2481,7 +2431,7 @@
       <text name="Fig11.6.1"
         x="1145"
         y="426"
-        width="129"
+        width="126"
         height="23"
         fill="0"
         fillcolor="white"
@@ -2515,7 +2465,7 @@
                         offset="-10" />
     </private>
     <path name="Fig12.0"
-      description="org.argouml.gefext.ArgoFigPoly"
+      description="org.tigris.gef.presentation.FigPoly"
       fill="0"
       fillcolor="white"
       stroke="1"
